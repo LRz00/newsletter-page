@@ -1,0 +1,22 @@
+#form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #form-field label {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 5px;
+  }
+  
+  #form-field input {
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
+  #form-field small{
+    font-size: 12px;
+    align-self: flex-end;
+    color: brown;
+  }

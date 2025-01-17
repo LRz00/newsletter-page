@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Roboto";
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: white;
+  height: 500px;
+  width: 600px;
+  left: calc(50% - 300px);
+  top: 100px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+#content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#illustration {
+  width: 100%;
+  height: auto;
+  margin-right: 15px;
+}
+
+p {
+  margin: 10px;
+  font-size: 16px;
+}
+
+li {
+  margin: 15px;
+  list-style-type: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#check img {
+  width: 16px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+#sucessCard {
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 100px;
+  height: 400px;
+  width: 400px;
+  background: white;
+  border-radius: 5%;
+  font-family: "Roboto";
+}
+
+#sucessCard h1{
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+#sucessCard img{
+  padding: 15px;
+}
+
+#sucessCard p{
+  font-size: 16px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#sucessCard Button{
+  align-self: center;
+}
+
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

@@ -1,0 +1,21 @@
+button {
+    height: 30px;
+    width: auto;
+    background: hsl(234, 29%, 20%);
+    font-family: "Roboto";
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border: 0;
+    border-radius: 5px
+}
+
+button:hover {
+    background: rgb(203, 233, 212);
+    background: linear-gradient(90deg, rgba(203, 233, 212, 1) 0%, rgba(150, 203, 167, 1) 35%, rgba(76, 124, 92, 1) 100%);
+    box-shadow: 4px 4px 8px #96cba7;
+  }
