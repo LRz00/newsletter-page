@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "@naturacosmeticos/natds-react": "^2.65.1",
+    "dotenv": "^16.4.7",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-toastify": "^11.0.3"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.26.0",
